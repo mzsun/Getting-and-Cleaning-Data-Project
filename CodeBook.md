@@ -132,6 +132,12 @@ In order to produce a tidy data set containing the means of the variables extrac
 
 The tidy data set has one row for each observation: A subject, the activity being performed by the subject and the average of the (subset of) measurements obtained for this subject performing the given activity. Since the experiement had 30 subjects performing 6 activities, we have 180 rows in our data set and 68 columns as identified in Part 3 above.
 
-The tidy summarized data set is output as a space delimited .txt file, called *tidyData.txt* generated using the '<write.table>' command. It can be read back into R from the working directory using:
+The tidy summarized data set is output as a space delimited .txt file, called *tidyData.txt* generated using the 
+```{r}
+write.table
+```
+command. It can be read back into R from the working directory using:
 
-'<read.table(file="tidyData.txt", sep=" ", header=TRUE)>'
+```{r} 
+read.table(file="tidyData.txt", sep=" ", header=TRUE)
+```

@@ -13,8 +13,7 @@ Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.ed
 The required script, run_analysis.R is written as a function that performs all the necessary processing steps. The code can be run as follows:
 
 ```{r}
-source("run_analysis.R")```
-```{r}
+source("run_analysis.R")
 run_analysis()
 ```
 
@@ -23,7 +22,10 @@ The script runs from the working directory. The [Data Set](https://d396qusza40or
 Please refer to the CodeBook provided for details regarding transformations and processes implemented to clean, subset and summarize the data as required as well as a list of variables in the final data set.
 
 The final tidy, summarized data set is output as a space delimited .txt file, called *tidyData.txt* generated using the 
- ```{r} write.table ``` command. It can be read back into R from the working directory using:
+ ```{r} 
+ write.table
+ ``` 
+ command. It can be read back into R from the working directory using:
 
 ```{r}
 read.table(file="tidyData.txt", sep=" ", header=TRUE)

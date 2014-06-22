@@ -1,7 +1,7 @@
 Getting and Cleaning Data Project README
 ========================================================
 
-## This project is part of the Coursera course on Getting and Cleaning data offered through John Hopkins ##
+### This project is part of the Coursera course **Getting and Cleaning Data** offered through John Hopkins ###
 
 The aim of this project is to demonstrate the ability to read, clean and summarize a given data set into a tidy data set that can be used for further procesing.
 
@@ -12,8 +12,8 @@ Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.ed
 
 The required script, run_analysis.R is written as a function that performs all the necessary processing steps. The code can be run as follows:
 
-'<source("run_analysis.R")
-run_analysis()>'
+'''source("run_analysis.R")
+run_analysis()'''
 
 The script runs from the working directory. The [Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is downloaded and extracted into a Data folder within the working directory. If a Data folder does not exist, a new one is created. 
 

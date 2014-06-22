@@ -30,3 +30,8 @@ The final tidy, summarized data set is output as a space delimited .txt file, ca
 ```{r}
 read.table(file="tidyData.txt", sep=" ", header=TRUE)
 ```
+
+R Packages Used:
+* reshape2
+* plyr
+Please make sure these packages are installed and loaded before running the script.

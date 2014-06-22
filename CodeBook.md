@@ -55,6 +55,8 @@ As explained in the *features_info.txt* file, the list of measurements and their
 * Since the dataset extracted focuses on the mean and standard deviation estimates of these variables, the measurement names are preceeded with **MEAN** and **STD** to indicate whether the computed variable is the mean or standard deviation of the recorded measurement.
 * Breaks within the variable names were provided using *"."* to make for easier reading of the variable names. This was used instead of *"-"* because R converts the *-* to *.* when reading in the header names.
 
+The measurements are normalized between 1 and -1 and hence no units apply.
+
 Below is a final list of the 68 measurements/columns used in the tidy data set.
 
 1. "Subject"                

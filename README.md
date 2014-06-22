@@ -11,10 +11,9 @@ Details about the experiement can be found at the UCI Machine Learning Repositor
 Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The required script, run_analysis.R is written as a function that performs all the necessary processing steps. The code can be run as follows:
-'''{r}
+
 source("run_analysis.R")
 run_analysis()
-'''
 
 The script runs from the working directory. The [Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) is downloaded and extracted into a Data folder within the working directory. If a Data folder does not exist, a new one is created. 
 
@@ -23,6 +22,4 @@ Please refer to the CodeBook provided for details regarding transformations and 
 The final tidy, summarized data set is output as a space delimited .txt file, called *tidyData.txt* generated using the 
 ''' {r} write.table ''' command. It can be read back into R from the working directory using:
 
-'''{r}
 read.table(file="tidyData.txt", sep=" ", header=TRUE)
-'''

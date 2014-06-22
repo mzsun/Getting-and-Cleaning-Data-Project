@@ -13,9 +13,9 @@ Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.ed
 The required script, run_analysis.R is written as a function that performs all the necessary processing steps. The code can be run as follows:
 
 ```{r}
-source("run_analysis.R")```
-```{r}
-run_analysis()```
+source("run_analysis.R")
+run_analysis()
+```
 
 ####Part 1 
 
